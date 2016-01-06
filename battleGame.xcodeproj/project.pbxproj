@@ -14,6 +14,11 @@
 		A643918C1C1B3C9800AB8E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A643918A1C1B3C9800AB8E9B /* LaunchScreen.storyboard */; };
 		A64391971C1B3C9800AB8E9B /* battleGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64391961C1B3C9800AB8E9B /* battleGameTests.swift */; };
 		A64391A21C1B3C9800AB8E9B /* battleGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64391A11C1B3C9800AB8E9B /* battleGameUITests.swift */; };
+		A64391B11C1B3E3C00AB8E9B /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64391B01C1B3E3C00AB8E9B /* Character.swift */; };
+		A64391B31C1B42DA00AB8E9B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64391B21C1B42DA00AB8E9B /* Player.swift */; };
+		A64391B51C1B45A200AB8E9B /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64391B41C1B45A200AB8E9B /* Enemy.swift */; };
+		A64391B71C1B85DF00AB8E9B /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64391B61C1B85DF00AB8E9B /* Kimara.swift */; };
+		A64391B91C1B87CD00AB8E9B /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64391B81C1B87CD00AB8E9B /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		A643919D1C1B3C9800AB8E9B /* battleGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = battleGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64391A11C1B3C9800AB8E9B /* battleGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = battleGameUITests.swift; sourceTree = "<group>"; };
 		A64391A31C1B3C9800AB8E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64391B01C1B3E3C00AB8E9B /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		A64391B21C1B42DA00AB8E9B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A64391B41C1B45A200AB8E9B /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		A64391B61C1B85DF00AB8E9B /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		A64391B81C1B87CD00AB8E9B /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 		A64391751C1B3C9800AB8E9B = {
 			isa = PBXGroup;
 			children = (
+				A64391AF1C1B3CFB00AB8E9B /* model */,
 				A64391801C1B3C9800AB8E9B /* battleGame */,
 				A64391951C1B3C9800AB8E9B /* battleGameTests */,
 				A64391A01C1B3C9800AB8E9B /* battleGameUITests */,
@@ -123,6 +134,18 @@
 				A64391A31C1B3C9800AB8E9B /* Info.plist */,
 			);
 			path = battleGameUITests;
+			sourceTree = "<group>";
+		};
+		A64391AF1C1B3CFB00AB8E9B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A64391B01C1B3E3C00AB8E9B /* Character.swift */,
+				A64391B21C1B42DA00AB8E9B /* Player.swift */,
+				A64391B41C1B45A200AB8E9B /* Enemy.swift */,
+				A64391B61C1B85DF00AB8E9B /* Kimara.swift */,
+				A64391B81C1B87CD00AB8E9B /* DevilWizard.swift */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A64391B31C1B42DA00AB8E9B /* Player.swift in Sources */,
+				A64391B51C1B45A200AB8E9B /* Enemy.swift in Sources */,
+				A64391B91C1B87CD00AB8E9B /* DevilWizard.swift in Sources */,
+				A64391B71C1B85DF00AB8E9B /* Kimara.swift in Sources */,
+				A64391B11C1B3E3C00AB8E9B /* Character.swift in Sources */,
 				A64391841C1B3C9800AB8E9B /* ViewController.swift in Sources */,
 				A64391821C1B3C9800AB8E9B /* AppDelegate.swift in Sources */,
 			);
